@@ -4,7 +4,7 @@ This project is a LinkedIn Post Generator tool designed to help influencers crea
 It analyzes a set of past posts to extract key characteristics and uses **Few-Shot Learning** with a **Large Language Model (LLM)** to generate new, contextually relevant content.
 
 The application is built using **Streamlit** for the user interface and **LangChain** for orchestrating LLM calls, leveraging the **Groq API** for fast inference with the **Llama 3.2** model.
-<img width="1366" height="768" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/18865cc3-2be6-4abe-8fce-862fee61d259" />
+
 
 ---
 
@@ -42,6 +42,8 @@ For example, if **Mohan** is a LinkedIn influencer, he can feed his past posts t
 1. Extract key topics and stylistic patterns.  
 2. Let him choose a topic, post length, and language.  
 3. Generate a new post in his exact writing style with one click.
+![tool](https://github.com/user-attachments/assets/c23b8b02-cdbb-4433-87df-0c89dc116874)
+
 
 ---
 
@@ -50,7 +52,8 @@ For example, if **Mohan** is a LinkedIn influencer, he can feed his past posts t
 **Stage 1:** Collect LinkedIn posts and extract Topic, Language, and Length.  
 **Stage 2:** Use the extracted data to generate new posts, applying few-shot learning to replicate the writing style.
 
----
+---![architecture](https://github.com/user-attachments/assets/3e31f217-fd7c-4199-b63f-9ce39e9c7ba2)
+
 
 ## 📁 Project Structure
 
@@ -80,7 +83,8 @@ For example, if **Mohan** is a LinkedIn influencer, he can feed his past posts t
 ```bash
 git clone https://github.com/karen0133/Post-Generator-.git
 cd project-genai-post-generator
-2. Install Dependencies
+
+### **2. Install Dependencies**
 bash
 Copy code
 pip install -r requirements.txt
